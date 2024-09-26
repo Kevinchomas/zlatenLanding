@@ -1,0 +1,16 @@
+.carousel-button-group{
+    position: absolute;
+    gap: 16px;
+    display: flex;
+    left: -120px;
+    bottom: 10px;
+}
+
+@media (max-width: 900px){
+    .carousel-button-group{
+        position: inherit;
+        left: 10px;
+        top: 10px;
+    }
+    
+}

@@ -1,0 +1,31 @@
+* {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/assets/fonts/Montserrat-Regular.ttf');
+  // src: url('../src/assets/fonts/Montserrat.woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../src/assets/fonts/OpenSans.woff2');
+}
+
+body {
+  margin: 0;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  background-color: #fff;
+}
